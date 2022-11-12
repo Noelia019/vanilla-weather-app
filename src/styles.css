@@ -1,0 +1,43 @@
+body {
+  font-family: "Sono", sans-serif;
+}
+
+h1 {
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadce1;
+  border-radius: 5%;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 20px;
+}
+.weather-temperature strong {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1;
+  position: relative;
+  top: 5px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  top: -18px;
+}
