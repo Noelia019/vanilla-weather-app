@@ -12,6 +12,10 @@ ul {
   padding: 0;
 }
 
+li {
+  text-transform: capitalize;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 40px auto;
